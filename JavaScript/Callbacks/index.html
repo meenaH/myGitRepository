@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>My Site</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="//favicon.ico" type="image/x-icon" sizes="16x16">
+        <!--[if lt IE 9]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <h1>Callbacks</h1>
+        <script>
+            function myFunction(callBack){               //callback is a parameter that you would call back as a function 
+                console.log("This is my function");
+                callBack();
+
+            }
+
+            myFunction(function() {
+                console.log("I am the callback function");
+            });
+        
+
+           
+
+        </script>
+    </body>
+</html>
