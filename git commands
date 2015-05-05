@@ -1,0 +1,33 @@
+1. delete file:  
+
+> cd into wd
+> git rm filename.js
+> git status
+> git to commit -m""
+> git status
+> git log
+
+
+
+2. Moving & renaming files:  
+
+> cd into wd
+> git mv testfile1.js testfile2.js (this is a rename)
+> git status
+
+> cd into wd
+> git mv testfile.js  first_directory/testfile.js
+> git status
+> git commit
+> git status
+
+
+
+3. Branching
+
+  > git branch : master
+  
+  > 
+                             
+                  
+
