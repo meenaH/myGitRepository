@@ -1,0 +1,29 @@
+var speak = function (saywhat){
+	console.log(saywhat);
+}
+
+
+var Dog = function () {
+	var name, breed;
+
+}
+
+Dog.prototype.speak = speak;
+
+firstDog = new Dog;
+firstDog.name = 'Rover';
+firstDog.breed = 'Doberman';
+firstDog.speak('Woof');
+
+
+var Cat = function () {
+    var name, breed;
+   
+}
+
+Cat.prototype.speak = speak;
+
+firstCat = new Cat;
+firstCat.name = 'Sniggles';
+firstCat.breed = 'Manx';
+firstCat.speak('meow');
