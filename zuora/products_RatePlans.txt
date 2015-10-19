@@ -1,0 +1,11 @@
+Steps to add new products + rate plans
+
+1. Product catalogue on expanded view
+2. Enter search text in search box e.g. classroom
+3. Select the the product you want to clone by clicking on ‘Clone’ link
+4. Click on the cloned link, this will the first product item on the top of the list
+5. Click on the 'Edit' link to amend the Product Name, Effective Start Date & Effective End Date
+6. Click on 'Save' button
+7. Click on the newly created product
+8. Select the indvidual rate plan & click on edit ‘link’
+9. Update list price > save
