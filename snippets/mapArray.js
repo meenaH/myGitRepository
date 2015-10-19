@@ -6,8 +6,6 @@ for (var x = 1; x <=12; x++){
 
 }
 
-
-
 	var numbers = [1,2,3,4];
 	numbers.map(function(a) {
 		console.log(a, 'times table');
