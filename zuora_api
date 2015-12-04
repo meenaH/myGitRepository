@@ -1,0 +1,28 @@
+Zuora Api
+
+- create an API user account 
+- avoid using it to log into the zuora UI
+
+
+- Z provides two REST services (production & sandbox)
+- example of a well formed REST url:
+  https://api.zuora.com/rest/v1/transactions/payments/accounts/A00000001?pageSize=40
+  
+    base url : https://api.zuora.com/rest/v1/transactions/payments/accounts/
+    resource & associated method  : rest/v1/transactions/payments/accounts
+    path parameter :  A00000001 
+    query parameter : pageSize=40
+    
+- Most of the data & parameters will be contained in the body of the http request in JSON format 
+
+
+Responses and Errors
+- success field (true/false)
+- Example of error code & message: 
+```
+    {
+
+      "code": 53100320,
+      "message": "'termType' value should be one of: TERMED, EVERGREEN"
+    }
+```
